@@ -1,0 +1,295 @@
+body {
+	background: #ccccff5c;
+	font-family: "Garamond", serif;
+	text-align: center;
+	display: inline;
+}
+h1 {
+	margin: 0px;
+}
+p {
+	margin-bottom: 1px;
+}
+.div-1 {
+	background-color: #ccccff90;
+	border: solid 3px #ccccff90;
+	border-radius: 10px;
+	padding: 15px;
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.grid-container-1 {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	align-content: center;
+	justify-content: center;
+	align-items: normal;
+	justify-items: normal;
+}
+.div-2 {
+	background-color: #ccccff90;
+	border: solid 3px #ccccff90;
+	border-radius: 10px;
+	padding: 25px;
+	text-align: justify;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 10px;
+}
+.div-3 {
+	background-color: #ccccff90;
+	border: solid 3px #ccccff90;
+	border-radius: 10px;
+	padding: 25px;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 50px;
+}
+.div-4 {
+	background-image: url("https://www.epdlp.com/fotos/jmompou1.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	border: solid 3px #ccccff90;
+	border-radius: 10px;
+	padding: 25px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.div-5 {
+	background-color: #ccccff90;
+	border: solid 3px #ccccff90;
+	border-radius: 10px;
+	padding: 25px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.grid-container-2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-content: center;
+	justify-content: center;
+	align-items: normal;
+	justify-items: normal;
+}
+.div-6 {
+	background-image: url("https://wahooart.com/Art.nsf/O/8LJ97S/$File/Josep-Mompou-Dencausse-Par-s.-Ponts-Des-Arts.JPG");
+	background-size: cover;
+	background-position: center;
+	height: auto;
+	border: solid 3px #ccccff90;
+	border-radius: 10px;
+	padding: 25px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	margin-right: 10px;
+}
+.div-7 {
+	background-color: #ccccff90;
+	border: solid 3px #ccccff90;
+	border-radius: 10px;
+	padding: 25px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.div-8 {
+	background-image: url("https://artsdot.com/ADC/Art.nsf/O/8LJ983/$File/Josep-Mompou-Dencausse-Port-De-Barcelona.JPG");
+	background-size: cover;
+	background-position: center;
+	height: auto;
+	border: solid 3px #ccccff90;
+	border-radius: 10px;
+	padding: 25px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 50px;
+}
+.div-9 {
+	background-color: #ccccff90;
+	border: solid 3px #ccccff90;
+	border-radius: 10px;
+	padding: 25px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	margin-right: 50px;	
+}
+.div-10 {
+	background-color: #ccccff90;
+	border: solid 3px #ccccff90;
+	border-radius: 10px;
+	padding: 25px;
+	text-align: justify;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.iframe-1 {
+    display:block;
+	height: 450px;
+    width:100%;
+}
+.div-11 {
+	background-image: url("https://www.coleccionbbva.com/wp-content/uploads/2017/09/cx00723.jpg");
+	background-size: cover;
+	background-position: bottom;
+	height: auto;
+	border: solid 3px #ccccff90;
+	border-radius: 10px;
+	padding: 25px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	margin-right: 10px;
+}
+.div-12 {
+	background-image: url("https://image.invaluable.com/housePhotos/Arce-Subastas/87/595087/H20156-L103296221.jpg");
+	background-size: cover;
+	background-position: bottom;
+	height: auto;
+	border: solid 3px #ccccff90;
+	border-radius: 10px;
+	padding: 25px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 50px;
+}
+.div-13 {
+	background-image: url("https://artsdot.com/ADC/Art.nsf/O/8LJ95V/$File/Josep-Mompou-Dencausse-Barcelona.-Plaza-Palau.JPG");
+	background-size: cover;
+	background-position: center;
+	height: auto;
+	border: solid 3px #ccccff90;
+	border-radius: 10px;
+	padding: 25px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	margin-right: 10px;
+}
+.div-14 {
+	background-image: url("https://wahooart.com/Art.nsf/O/8LJ96X/$File/Josep-Mompou-Dencausse-Interior-And-Nude.JPG");
+	background-size: cover;
+    background-position-y: center;
+	height: auto;
+	border: solid 3px #ccccff90;
+	border-radius: 10px;
+	padding: 25px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 50px;
+}
+.div-15 {
+	background-image: url("https://i.pinimg.com/736x/94/2a/42/942a42f44aaa1aefff56afd5e7c006f3.jpg");
+	background-size: cover;
+	background-position: bottom;
+	height: auto;
+	border: solid 3px #ccccff90;
+	border-radius: 10px;
+	padding: 25px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	margin-right: 10px;
+}
+.div-16 {
+	background-image: url("https://www.museunacional.cat/sites/default/files/004322-000_065124.jpg");
+	background-size: cover;
+	background-position: bottom;
+	height: auto;
+	border: solid 3px #ccccff90;
+	border-radius: 10px;
+	padding: 25px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 50px;
+}
+.div-17 {
+	background-image: url("http://images.arcadja.com/mompou_dencause_josep-bodeg%C3%B3n~OM2fb300~10631_20171212_99923_345.jpg");
+	background-size: cover;
+    background-position-y: center;
+	height: auto;
+	border: solid 3px #ccccff90;
+	border-radius: 10px;
+	padding: 25px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	margin-right: 10px;
+}
+.div-18 {
+	background-image: url("https://i.ebayimg.com/images/g/POQAAOSwYfBdJGbK/s-l400.jpg");
+	background-size: cover;
+	background-position-x: center;
+	height: auto;
+	border: solid 3px #ccccff90;
+	border-radius: 10px;
+	padding: 25px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 50px;
+}
+.div-19 {
+	background-image: url("https://artsdot.com/ADC/Art.nsf/O/8LJ98Y/$File/Josep-Mompou-Dencausse-Still-Life-With-Fish.JPG");
+	background-size: cover;
+	background-position: center;
+	height: auto;
+	border: solid 3px #ccccff90;
+	border-radius: 10px;
+	padding: 25px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	margin-right: 10px;
+}
+.div-20 {
+	background-image: url("https://artsdot.com/ADC/Art.nsf/O/8LJ992/$File/Josep-Mompou-Dencausse-Still-Life.-Two-Bottles-And-Soda.JPG");
+	background-size: cover;
+	background-position: center;
+	height: auto;
+	border: solid 3px #ccccff90;
+	border-radius: 10px;
+	padding: 25px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 50px;
+}
+a:link {
+	color: #7a7a99;
+}
+a:visited {
+	color: #7a7a99;
+}
+
+
