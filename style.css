@@ -90,6 +90,7 @@ audio::-webkit-media-controls-enclosure {
       border-radius: 0px;
       background-color: #ababd6;
       color: #000000;
+      margin_bottom: 10px;
       }
 ::-webkit-scrollbar {
   width: 10px;
