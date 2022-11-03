@@ -1,0 +1,104 @@
+body {
+	background-color: #ccccff;
+	font-size: large;
+	font-family: "Garamond", serif;
+	text-align: center;
+	display: inline;
+}
+h1 {
+	margin: 0px;
+}
+p {
+	margin-bottom: 1px;
+}
+.grid-container-1 {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	justify-content: center;
+}
+.div-1 {
+	display: inline;
+	background-color: #ccccff;
+	border: solid 3px #000000;
+	padding: 15px;
+	text-align: center;
+	margin: 35px;
+}
+.div-2 {
+	display: inline;
+	background-color: #ccccff;
+	border: solid 3px #000000;
+	padding: 15px;
+	text-align: center;
+	margin: 35px;
+}
+.button-1 {
+	border: none;
+	background-color: transparent;
+	font-family: "Garamond", serif;
+	font-size: large;
+	text-align: center;
+	margin-right: 30px;
+}
+.grid-container-2 {
+	display: grid;
+	background-color: #ababd6;
+	grid-template-rows: auto 1fr;
+	align-content: center;
+	margin-left: 50px;
+	margin-top: 20px;
+	justify-content: left;
+	align-items: normal;
+	justify-items: center;
+	border: solid 3px #000000;
+	width: 320px;
+}
+.header-1 {
+	background-image: url("https://www.epdlp.com/fotos/jmompou1.jpg");
+	background-attachment:fixed;
+	background-position: bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 150px;
+	border: solid 3px #000000;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	justify-content: center;
+}
+#img-1 {
+	height: 300px;
+	width: 300px;
+	margin: 10px;
+}
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	color: #000000;
+	text-decoration: none;
+	text-shadow: 2px 2px 2px #7a7a99;
+}
+a:active {
+	color: #000000;
+	text-decoration: none;
+}
+audio::-webkit-media-controls-enclosure {
+      border-radius: 0px;
+      background-color: #ababd6;
+      color: #000000;
+      }
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #ababd6; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7a7a99; 
+}
