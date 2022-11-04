@@ -68,8 +68,8 @@ p {
   	align-items: center;
 }
 #audio-player {
-	background-color: #ccccff;
-	border: solid 3px #000000;
+	background-color: #ababd6;
+	border-radius: 10px;
 	margin-top: 20px;
 	margin-left: 30px;
 	margin-right: 10px;
@@ -99,7 +99,7 @@ a:active {
 }
 audio::-webkit-media-controls-enclosure {
       border-radius: 0px;
-      background-color: #ccccff;
+      background-color: #ababd6;
       color: #000000;
       margin-bottom: 10px;
       }
