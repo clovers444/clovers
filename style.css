@@ -1,5 +1,5 @@
 body {
-	background-color: #ccccff;
+	background-color: #ffffff;
 	font-size: large;
 	font-family: "Garamond", serif;
 	text-align: center;
@@ -17,7 +17,7 @@ p {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	padding: 30px;
+	padding: 40px;
 	margin-left: 30px;
 	margin-right: 30px;
     max-width: -webkit-fill-available;
