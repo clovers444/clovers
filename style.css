@@ -26,22 +26,21 @@ p {
 	justify-content: center;
 }
 .div-1 {
-	display: inline;
-	background-color: #ccccff;
-	border: solid 3px #000000;
-	padding: 15px;
-	text-align: center;
-	margin-right: 15px;
-	margin-left: 50px;
+    display: block;
+    background-color: #ccccff;
+    border: solid 3px #000000;
+    padding: 15px;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 20px;
 }
 .div-2 {
-	display: inline;
-	background-color: #ccccff;
-	border: solid 3px #000000;
-	padding: 15px;
-	text-align: center;
-	margin-right: 50px;
-	margin-left: 15px ;
+    display: grid;
+    background-color: #ccccff;
+    border: solid 3px #000000;
+    padding: 15px;
+    text-align: center;
+    margin-left: 15px;
 }
 .button-1 {
 	border: none;
