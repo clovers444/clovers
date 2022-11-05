@@ -5,8 +5,12 @@ body {
 	text-align: center;
 	display: inline;
 }
-h1 {
+#span-1 {
 	margin: 0px;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: larger;
+  font-weight: bold;
 }
 p {
 	margin-bottom: 1px;
@@ -36,7 +40,7 @@ p {
     margin-left: 20px;
 }
 .div-2 {
-    display: grid;
+    display: table;
     background-color: #ccccff;
     border: solid 3px #000000;
     padding: 15px;
