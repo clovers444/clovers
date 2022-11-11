@@ -121,11 +121,10 @@ audio::-webkit-media-controls-enclosure {
   align-content: center;
 }
 #ac {
-  display: inline-grid;
+  display: grid;
   grid-template-columns: auto auto auto;
   margin: 30px 30px 10px 30px;
   width: -webkit-fill-available;
-  height: -webkit-fill-available;
   justify-content: space-around;
   align-items: end;
   justify-items: center;
