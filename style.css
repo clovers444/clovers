@@ -82,7 +82,6 @@ a:active {
   grid-template-columns: auto 1fr;
   margin: 10px 30px 10px 30px;
   min-width: -webkit-fill-available;
-  min-height: -webkit-fill-available;
 }
 #mp3player {
   display: inline-grid;
@@ -135,6 +134,7 @@ audio::-webkit-media-controls-enclosure {
 	display: inline-flex;
 	width: -webkit-fill-available;
 	height: -webkit-fill-available;
+	margin: 20px 30px 20px 30px;
 	background-color: #ccccff;
 	border-radius: 5px;
 	flex-direction: column;
@@ -145,8 +145,13 @@ audio::-webkit-media-controls-enclosure {
 	grid-template-columns: auto 1fr;
 	width: -webkit-fill-available;
 }
+#general {
+	margin: 10px;
+	background-color: #ababd6;
+	border-radius: 5px;
+}
 #pfp {
 	height: 200px;
 	border-radius: 100%;
-	padding: 10px;
+	padding: 20px;
 }
