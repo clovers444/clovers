@@ -86,7 +86,6 @@ a:active {
 }
 #mp3player {
   display: inline-grid;
-  height: -webkit-fill-available;
   width: 150px;
   background-color: #ababd6;
   border-radius: 5px;
