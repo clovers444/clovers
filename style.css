@@ -1,53 +1,55 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #ccccff; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ababd6; 
+}
 body {
 	background-color: #eeeefb;
 	font-size: large;
 	font-family: "Garamond", serif;
-	text-align: center;
-	display: inline;
 }
-#p-1 {
-	margin: 0px;
-  display: table-cell;
-  vertical-align: middle;
-  font-size: larger;
-  font-weight: bold;
-  height: ;
-}
-p {
-	margin-bottom: 1px;
-}
-.grid-container-1 {
-	display: grid;
-	background: #ccccff url(https://www.epdlp.com/fotos/jmompou1.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	border-radius: 5px;
-	padding: 40px;
-	margin-left: 30px;
-	margin-right: 30px;
-	max-height: -webkit-fill-available;
+#top {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  background-image: url(https://d7hftxdivxxvm.cloudfront.net/?resize_to=fit&width=800&height=642&quality=80&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2FfnIVKDQKl8rMxdXseY5ihw%2Fnormalized.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  border-radius: 5px;
+  margin: 20px 30px 10px 30px;
+  padding: 20px;
+  max-height: -webkit-fill-available;
   max-width: -webkit-fill-available;
-  width: 100%;
-	grid-template-columns: auto 1fr;
-	justify-content: center;
+  justify-items: center;
+  justify-content: center;
 }
-.div-1 {
-    display: block;
-    background-color: #ccccff;
-    border: solid 3px #000000;
-    padding: 15px;
-    text-align: center;
-    margin-right: 15px;
-    margin-left: 20px;
+#header-1 {
+	display: inline-grid;
+	background-color: #ccccffed;
+	margin-left: 20px;
+	margin-right: 10px;
+	width: fit-content;
+	text-align: center;
+	padding: 5px;
+	border-radius: 5px;
+	align-content: center;
 }
-.div-2 {
-    display: table;
-    background-color: #ccccff;
-    border: solid 3px #000000;
-    padding: 15px;
-    text-align: center;
-    margin-left: 15px;
+#nav-1 {
+	display: inline-block;
+  background-color: #ccccffed;
+  margin-left: 10px;
+  margin-right: 20px;
+  width: -webkit-fill-available;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
 }
 .button-1 {
 	border: none;
@@ -57,34 +59,6 @@ p {
 	text-align: center;
 	margin-left: 10px;
 	margin-right: 10px;
-}
-.grid-container-2 {
-	display: grid;
-	grid-template-columns: auto 1fr;
-	justify-content: center;
-}
-.main-1 {
-	display: flex;
-	background-color: #ccccff;
-	border-radius: 5px;
-	margin-right: 30px;
-	margin-top: 20px;
-	margin-left: 10px;
-	justify-content: center;
-  	align-items: center;
-}
-#audio-player {
-	background-color: #ababd6;
-	border-radius: 10px;
-	margin-top: 20px;
-	margin-left: 30px;
-	margin-right: 10px;
-	align-content: center;
-}
-#img-1 {
-	height: 300px;
-	width: 300px;
-	margin: 10px;
 }
 a:link {
 	color: #000000;
@@ -103,18 +77,78 @@ a:active {
 	color: #000000;
 	text-decoration: none;
 }
+.grid {
+  display: inline-grid;
+  grid-template-columns: auto 1fr;
+  margin: 10px 30px 10px 30px;
+  min-width: -webkit-fill-available;
+  min-height: -webkit-fill-available;
+}
+#mp3player {
+  display: inline-grid;
+  height: -webkit-fill-available;
+  width: 150px;
+  background-color: #ababd6;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 15px;
+  align-content: center;
+  justify-items: center;
+  justify-content: space-evenly;
+}
 audio::-webkit-media-controls-enclosure {
-      border-radius: 0px;
-      background-color: #ababd6;
-      color: #000000;
-      margin-bottom: 10px;
-      }
-::-webkit-scrollbar {
-  width: 10px;
+	display: inline-flex;
+	width: 150px;
+  border-radius: 0px;
+  background-color: #ffffff00;
+  color: #000000;
+  margin-bottom: 10px;
 }
-::-webkit-scrollbar-thumb {
-  background: #ababd6; 
+#weatherday {
+	height: 150px;
+	width: 150px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
-::-webkit-scrollbar-thumb:hover {
-  background: #7a7a99; 
+#main-1 {
+	display: inline-grid;
+  background-color: #ccccff;
+  width: -webkit-fill-available;
+  border-radius: 5px;
+  padding: 15px;
+  margin-left: 10px;
+  text-align: center;
+  align-content: center;
+}
+#ac {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  margin: 30px 30px 10px 30px;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  justify-content: space-around;
+  align-items: end;
+  justify-items: center;
+}
+.acv {
+	width: 150px;
+}
+#about-me {
+	display: inline-flex;
+	width: -webkit-fill-available;
+	height: -webkit-fill-available;
+	background-color: #ccccff;
+	border-radius: 5px;
+	flex-direction: column;
+  align-items: center;
+}
+#info {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	width: -webkit-fill-available;
+}
+#pfp {
+	height: 200px;
+	border-radius: 100%;
+	padding: 10px;
 }
