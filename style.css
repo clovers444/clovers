@@ -57,8 +57,7 @@ body {
 	font-family: "Garamond", serif;
 	font-size: large;
 	text-align: center;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin: 10px 10px 0px 10px;
 }
 a:link {
 	color: #000000;
@@ -178,7 +177,7 @@ audio::-webkit-media-controls-enclosure {
 		width: fit-content;
 	}
 	.button-1 {
-		margin: 5px;
+		margin: 3px;
 	}
 	.grid {
 		display: inline-flex;
