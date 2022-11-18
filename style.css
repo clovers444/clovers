@@ -158,9 +158,6 @@ audio::-webkit-media-controls-enclosure {
 	padding: 20px;
 }
 @media (max-width: 600px) {
-	p {
-		font-size: x-large;
-	}
 	#top {
 		display: inline-flex;
     flex-direction: column;
@@ -178,6 +175,7 @@ audio::-webkit-media-controls-enclosure {
 	}
 	.button-1 {
 		margin: 3px;
+		font-size: larger;
 	}
 	.grid {
 		display: inline-flex;
@@ -191,6 +189,7 @@ audio::-webkit-media-controls-enclosure {
 		margin-top: 10px;
 		margin-bottom: 10px;
 		width: -webkit-fill-available;
+		font-size: x-large;
 	}
 	audio::-webkit-media-controls-enclosure {
   background-color: #ffffff00;
@@ -202,5 +201,6 @@ audio::-webkit-media-controls-enclosure {
 		margin-top: 10px;
 		margin-bottom: 10px;
 		padding: 35px;
+		font-size: x-large;
 	}
 }
