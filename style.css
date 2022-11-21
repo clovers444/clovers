@@ -171,7 +171,7 @@ audio::-webkit-media-controls-enclosure {
 		display: inline-grid;
 		grid-template-columns: auto auto auto;
 		margin: 10px 0px 0px 0px;
-		width: fit-content;
+		width: -webkit-fill-available;
 	}
 	.button-1 {
 		margin: 3px;
