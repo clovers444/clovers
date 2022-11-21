@@ -175,7 +175,7 @@ audio::-webkit-media-controls-enclosure {
 	}
 	.button-1 {
 		margin: 3px;
-		font-size: larger;
+		font-size: medium;
 	}
 	.grid {
 		display: inline-flex;
