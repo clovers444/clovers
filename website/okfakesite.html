@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <title>OKLichi!</title>
+</head>
+<body bgcolor="#93b1ff" style="font-family:verdana">
+  <div id="okfixedlayout">
+    <table id="oklogojoin">
+      <tr>
+        <td id="oktlj1"><img src="oklichi.png" align="left"></td>
+        <td id="oktlj2"><a href="okfakesite.html" class="oklink"><b>JOIN OkLichi! (Start here)</b></a>&nbsp;</td>
+      </tr>
+    </table>
+    <table id="okwhitebox" cellspacing="0" cellpadding="0">
+      <tr>
+        <td style="display: block">
+          <table id="okrightside" cellspacing="0" cellpadding="0">
+            <tr>
+              <td id="oknav1" style="display: inline-block">
+                <div id="okbuttonbar1">
+                  <img src="okpeopleyes.gif"><button onclick="toggleTests()" id="oktestsb"><img onmouseover="okHover(this)" onmouseout="okNormal(this)" src="oktestsno.gif"></button>
+                  <script>
+                    function okHover(img) {
+                      img.src = "oktestsno2.gif";
+                    }
+
+                    function okNormal(img) {
+                     img.src = "oktestsno.gif";
+                   }
+                 </script>
+               </div>
+               <div class="oknavdiv">
+                <table class="okpeopletests" border="1" bordercolor="#99b5ff"> 
+                  <tr>
+                    <td class="okcolor1"><span class="okspace">&nbsp;</span></td>
+                    <td style="padding: 2px">
+                      <a href="okfakesite.html" class="oktlink"><b>See Who's Online</b></a><br>
+                      <a href="okfakesite.html" class="oktlink"><b>Take the OkLichi Test</b></a><br>
+                      <a href="okfakesite.html" class="oktlink"><b>Create an Account</b></a>
+                    </td>
+                    <td class="okcolor2"><span class="okspace">&nbsp;</span></td>
+                  </tr>
+                  <tr>
+                    <td class="okcolor1"><span class="okspace">&nbsp;</span></td>
+                    <td id="tdcolor1">
+                      <img src="okquestion.gif">
+                      <button class="okcollapsible" style="font-size: 10.6667px">All About OkLichi</button>
+                      <div class="okccontent1">
+                        <a href="okfakesite.html" class="oktlink">Nothing to See Here</a>
+                      </div>
+                    </td>
+                    <td class="okcolor2"><span class="okspace">&nbsp;</span></td>
+                  </tr>
+                  <tr>
+                    <td class="okcolor1"><span class="okspace">&nbsp;</span></td>
+                    <td style="padding: 2px">
+                      <img src="oklupa.gif">
+                      <button class="okcollapsible" style="font-size: 10.6667px">Search by Username or E-mail</button>
+                      <div class="okccontent2" align="center">
+                        <input type="text"><br><button><a href="okfakesite.html" class="oklinkbutton">Lookup</a></button>
+                      </div>
+                    </td>
+                    <td class="okcolor3"><span class="okspace">&nbsp;</span></td>
+                  </tr>
+                  <tr>
+                    <td class="okcolor1"><span class="okspace">&nbsp;</span></td>
+                    <td style="padding: 2px">
+                      <img src="oklupa.gif">
+                      <button class="okcollapsible" style="font-size: 10.6667px">Search by Interest - <b>New!</b></button>
+                      <div class="okccontent2" align="center">
+                        <input type="text"><br><span class="okspan">e.g. rock climbing, Beatles, tattoos, mayhem</span><br><button><a href="okfakesite.html" class="oklinkbutton">Lookup</a></button>
+                      </div>
+                    </td>
+                    <td class="okcolor3"><span class="okspace">&nbsp;</span></td>
+                  </tr>
+                </table>
+              </div>
+            </td>
+            <td id="oknav2">
+              <div id="okbuttonbar2">
+                <button onclick="toggleTests()" id="okpeopleb"><img onmouseover="okpHover(this)" onmouseout="okpNormal(this)" src="okpeopleno.gif"></button><img src="oktestsyes.gif" class="oknav">
+                <script>
+                  function okpHover(img) {
+                    img.src = "okpeopleno2.gif";
+                  }
+
+                  function okpNormal(img) {
+                   img.src = "okpeopleno.gif";
+                 }
+               </script>
+             </div>
+             <div class="oknavdiv">
+              <table border="1" bordercolor="#99b5ff" class="okpeopletests">
+                <tr>
+                  <td class="okcolor2"><span class="okspace">&nbsp;</span></td>
+                  <td>
+                    <a href="okfakesite.html" class="oktlink"><b>The OkLichi Test</b></a><br>
+                    <a href="okfakesite.html" class="oktlink">The Lichi Knowledge Test</a><br>
+                    <a href="okfakesite.html" class="oktlink">The Lichi Compatibility Test</a><br>
+                    <a href="okfakesite.html" class="oktlink">The Lichidar Test</a><br>
+                  </td>
+                </tr>
+                <tr>
+                 <td class="okcolor2"><span class="okspace">&nbsp;</span></td>
+                 <td>
+                   <img src="okpencil.gif">
+                   <button class="okcollapsible" style="font-size: 10.6667px">Under 10,000 User Tests</button>
+                   <div class="okccontent1">
+                     <a href="okfakesite.html" class="oktlink">Nothing to See Here Either</a>
+                   </div>
+                 </td> 
+               </tr>
+             </table>
+           </div>
+         </td>
+       </tr>
+       <tr>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <img src="oklogin.gif" id="oklimg">
+              </td>
+            </tr>
+          </table>
+          <table id="oklogin">
+            <tr>
+              <td class="oklinfo">
+                Username:
+                <p id="oklip">
+                  <br>
+                  or e-mail
+                </p>
+              </td>
+              <td style="display: inline-block" align="left">
+                <input type="text" style="width: 134px;">
+              </td>
+            </tr>
+            <tr>
+              <td class="oklinfo">Password:</td>
+              <td style="display: inline-block" align="left">
+                <input type="password" size="9" maxlength="20">
+              </td>
+              <td  style="display: inline-block;width: fit-content;" align="left">
+                &thinsp;<button><a href="okfakesite.html" class="oklinkbutton">Login</a></button>
+              </td>
+            </tr>
+            <tr>
+              <td align="right">
+                <a href="okfakesite.html" class="oklink">Lost Passwords</a>  
+                &nbsp;
+                <a href="okfakesite.html" class="oklink">JOIN</a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>   
+  </td>
+  <td valign="top">
+    <table id="okleftside" cellspacing="0" cellpadding="0" width="700">
+      <tr>
+        <td align="center">
+          <table width="500" cellpadding="20" style="padding-top: 55px;padding-bottom: 30px;">
+            <tr>
+              <td>
+                <img src="okshuushuuyotsu.png" height="152">
+              </td>
+              <td style="font-family: verdana;font-size: 13.3333px;">
+                OkLichi status: <b>USELESS</b>
+                <br>
+                <br>
+                Thank you for checking it out it! But there isn't much to see here...
+                <br>
+                <br>
+                So feel free to go back to the page you came from.
+                <br>
+                <br>
+                Or check out the rest of the site.
+                <br>
+                <br>
+                Now would be a great time to:
+                <br>
+                <ul style="list-style: square;">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr height="25">
+  <td colspan="2" bgcolor="#4f7bed">&nbsp;</td>
+</tr>
+<tr height="25">
+  <td colspan="2" bgcolor="#7199ff">&nbsp;</td>
+</tr>
+<tr height="25">
+  <td colspan="2" align="right">
+    <font style="font-family: verdana;font-size: 10.6667px;"> © 2005, Lichi Rainbow, Inc. Patent Pending. Powered by <a href="okfakesite.html" class="oknlink">The Lichi Web Server</a>.</font> 
+    <img src="okrainbow.gif" valign="middle">
+  </td>
+</tr>
+</table>
+<table align="right" style="padding-bottom: 65px;">
+  <tr>
+    <td style="font-family: verdana;font-size: 10.6667px;">
+      <a href="okfakesite.html" class="oknlink">Ok Lichi - Free Online Dating</a>&nbsp;&nbsp;
+      <a href="okfakesite.html" class="oknlink">CONTACT/ABOUT US</a>&nbsp;&nbsp;
+      <a href="okfakesite.html" class="oknlink">Privacy Policy</a>&nbsp;&nbsp;
+      <a href="okfakesite.html" class="oknlink">Terms and Conditions</a>
+      <br>
+      <br>
+      <span align="right" style="display: block;font-family: verdana;font-size: 9.33333px;color: #6666ff;">Partner Site: <a href="okfakesite.html" class="oknlink">eLichi2000 download & file sharing</a></span>
+    </td>
+  </tr>
+</table>
+</div>
+<script src="okcollapsible.js"></script>
+<script src="oktoggle.js"></script>
+</body>
+</html>
